@@ -1,0 +1,345 @@
+[
+ {
+   "A": "Nome do Item",
+   "B": "Preço Médio",
+   "C": "Classe",
+   "D": "Tipo",
+   "E": "Nível Mínimo"
+ },
+ {
+   "A": "Sword Dancer+Sorte+Skill+Add+9",
+   "B": "10",
+   "C": "BK",
+   "D": "Arma",
+   "E": ""
+ },
+ {
+   "A": "Ring fire",
+   "B": "10",
+   "C": "",
+   "D": "Acessório",
+   "E": ""
+ },
+ {
+   "A": "Dark Horse Nível 50",
+   "B": "10",
+   "C": "DL",
+   "D": "Pet",
+   "E": ""
+ },
+ {
+   "A": "Asa de BK +11 ig+4%",
+   "B": "100",
+   "C": "BK",
+   "D": "Asa/Capa",
+   "E": ""
+ },
+ {
+   "A": "Fenrir Preto",
+   "B": "105",
+   "C": "",
+   "D": "Pet",
+   "E": ""
+ },
+ {
+   "A": "Fenrir Preto",
+   "B": "117",
+   "C": "",
+   "D": "Pet",
+   "E": ""
+ },
+ {
+   "A": "Fenrir Azul",
+   "B": "131",
+   "C": "",
+   "D": "Pet",
+   "E": ""
+ },
+ {
+   "A": "Capa +13+Ig+16",
+   "B": "14",
+   "C": "DL",
+   "D": "Asa/Capa",
+   "E": ""
+ },
+ {
+   "A": "Set Valiant SDR+13+16",
+   "B": "140",
+   "C": "BK",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "Capa DL+Sorte+10",
+   "B": "15",
+   "C": "DL",
+   "D": "Asa/Capa",
+   "E": ""
+ },
+ {
+   "A": "EB+13 Roxo Sorte 2% Velo PvM",
+   "B": "1500",
+   "C": "BK",
+   "D": "Arma",
+   "E": ""
+ },
+ {
+   "A": "Bota Gaion +10 Sorte",
+   "B": "200",
+   "C": "",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "Shield Dragon Slayer +13+SDV",
+   "B": "20",
+   "C": "BK",
+   "D": "Escudo",
+   "E": ""
+ },
+ {
+   "A": "1K/1K (Jewel of Chaos)",
+   "B": "20",
+   "C": "",
+   "D": "Jóia",
+   "E": ""
+ },
+ {
+   "A": "Asa de SM lvl 2 +13 +sorte +16",
+   "B": "25",
+   "C": "SM",
+   "D": "Asa/Capa",
+   "E": ""
+ },
+ {
+   "A": "Capa +13+Sorte+16 (Capa de Lord)",
+   "B": "25",
+   "C": "DL",
+   "D": "Asa/Capa",
+   "E": ""
+ },
+ {
+   "A": "Shining Full Madds+11",
+   "B": "25",
+   "C": "DL",
+   "D": "Arma",
+   "E": ""
+ },
+ {
+   "A": "Shield Spiked +13+16 SDR",
+   "B": "25",
+   "C": "BK",
+   "D": "Escudo",
+   "E": ""
+ },
+ {
+   "A": "1K/1K (Jewel of Chaos)",
+   "B": "25",
+   "C": "",
+   "D": "Jóia",
+   "E": ""
+ },
+ {
+   "A": "Asa de BK sorte+13",
+   "B": "27",
+   "C": "BK",
+   "D": "Asa/Capa",
+   "E": ""
+ },
+ {
+   "A": "Kit UP BK",
+   "B": "28",
+   "C": "BK",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "BB+13+2%",
+   "B": "300",
+   "C": "BK",
+   "D": "Arma",
+   "E": ""
+ },
+ {
+   "A": "Asa de BK Nível 2 (lisa, básica)",
+   "B": "3",
+   "C": "BK",
+   "D": "Asa/Capa",
+   "E": ""
+ },
+ {
+   "A": "Kit UP MG",
+   "B": "30",
+   "C": "MG",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "Baú de Complex Médio",
+   "B": "30",
+   "C": "",
+   "D": "Item de Upgrade",
+   "E": ""
+ },
+ {
+   "A": "Asa BK Full 4%",
+   "B": "320",
+   "C": "BK",
+   "D": "Asa/Capa",
+   "E": ""
+ },
+ {
+   "A": "Capa Full (DL)",
+   "B": "330",
+   "C": "DL",
+   "D": "Asa/Capa",
+   "E": ""
+ },
+ {
+   "A": "Asa de BK +13+S+4%+MANA",
+   "B": "300",
+   "C": "BK",
+   "D": "Asa/Capa",
+   "E": ""
+ },
+ {
+   "A": "Capa Full (DL)",
+   "B": "360",
+   "C": "DL",
+   "D": "Asa/Capa",
+   "E": ""
+ },
+ {
+   "A": "Set MIST +13 Sorte (FULL)",
+   "B": "400",
+   "C": "SM",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "Kit UP DL",
+   "B": "40",
+   "C": "DL",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "Kit anéis Wind+Ice+pendant",
+   "B": "40",
+   "C": "",
+   "D": "Acessório",
+   "E": ""
+ },
+ {
+   "A": "Bota Gaion",
+   "B": "45",
+   "C": "",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "Asas NOB Nível 2 (ELF e BK)",
+   "B": "5",
+   "C": "BK/Elf",
+   "D": "Asa/Capa",
+   "E": ""
+ },
+ {
+   "A": "Dark Raven",
+   "B": "5",
+   "C": "DL",
+   "D": "Pet",
+   "E": ""
+ },
+ {
+   "A": "Set Valiant SDR+9",
+   "B": "50",
+   "C": "BK",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "Trade de JOH",
+   "B": "55",
+   "C": "",
+   "D": "Item de Upgrade",
+   "E": ""
+ },
+ {
+   "A": "Legendary Staff+9+s+10%+12",
+   "B": "6",
+   "C": "SM",
+   "D": "Arma",
+   "E": ""
+ },
+ {
+   "A": "Set Enis ativo+9",
+   "B": "60",
+   "C": "Elf",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "Kit UP MG 380 Volcano",
+   "B": "60",
+   "C": "MG",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "Set Rave ativo +9",
+   "B": "77",
+   "C": "BK",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "Set DK(380BK) +13 Roxo DR",
+   "B": "800",
+   "C": "BK",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "Set Muren +13 Sorte(FULL)",
+   "B": "800",
+   "C": "SM",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "BB+13 Roxo Sorte 2% Velo PvM",
+   "B": "800",
+   "C": "BK",
+   "D": "Arma",
+   "E": ""
+ },
+ {
+   "A": "Set DarkMaster DL +13+SDV",
+   "B": "85",
+   "C": "DL",
+   "D": "Armadura",
+   "E": ""
+ },
+ {
+   "A": "KB +9+10%+2%",
+   "B": "9",
+   "C": "BK",
+   "D": "Arma",
+   "E": ""
+ },
+ {
+   "A": "Kundun +6+s+10%+pvm(rec)",
+   "B": "9",
+   "C": "SM",
+   "D": "Arma",
+   "E": ""
+ },
+ {
+   "A": "Set Soley +13+Sorte+16 +add",
+   "B": "90",
+   "C": "DL",
+   "D": "Armadura",
+   "E": ""
+ }
+]
