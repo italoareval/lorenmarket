@@ -32,57 +32,40 @@ main {
     padding: 0 1rem;
 }
 
-/* Seção de Busca e Filtros */
-.search-and-filters {
+/* Seção de Filtros */
+.filters-container {
     background-color: #fff;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
 }
 
-.search-container {
-    margin-bottom: 1.5rem;
-}
-
-#item-search {
-    width: 100%;
-    padding: 12px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    box-sizing: border-box; /* Garante que o padding não aumente a largura */
-}
-
-.filters-container h3, .filters-container h4 {
-    margin-top: 0;
-    margin-bottom: 10px;
+.filters-container h3 {
+    margin: 0;
+    font-size: 1.2rem;
 }
 
 .filter-group {
-    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.filter-button {
-    background-color: #e0e0e0;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    cursor: pointer;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    transition: background-color 0.3s, transform 0.2s;
+.filter-group label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
 }
 
-.filter-button:hover {
-    background-color: #d0d0d0;
-    transform: translateY(-2px);
-}
-
-.filter-button.active {
-    background-color: #3498db;
-    color: #fff;
+.filter-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f8f9fa;
 }
 
 /* Seção de Lista de Itens */
