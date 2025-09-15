@@ -1,20 +1,230 @@
 [
   {
-    "nome": "Espada da Fênix",
-    "precoMedio": 12000,
+    "nome": "Asa de BK +11 ig+4%",
+    "precoMedio": 100,
     "classe": "Guerreiro",
-    "tipo": "Arma"
+    "tipo": "Asas e Capas"
   },
   {
-    "nome": "Armadura de Dragão",
-    "precoMedio": 8500,
-    "classe": "Cavaleiro",
-    "tipo": "Armadura"
+    "nome": "Asa de BK +13+S+4%+MANA",
+    "precoMedio": 35,
+    "classe": "Guerreiro",
+    "tipo": "Asas e Capas"
   },
   {
-    "nome": "Cajado do Poder",
-    "precoMedio": 9500,
+    "nome": "Asa de BK sorte+13",
+    "precoMedio": 27.5,
+    "classe": "Guerreiro",
+    "tipo": "Asas e Capas"
+  },
+  {
+    "nome": "Asa BK Full 4%",
+    "precoMedio": 320,
+    "classe": "Guerreiro",
+    "tipo": "Asas e Capas"
+  },
+  {
+    "nome": "Asa de BK Nível 2 (lisa, básica)",
+    "precoMedio": 3,
+    "classe": "Guerreiro",
+    "tipo": "Asas e Capas"
+  },
+  {
+    "nome": "Asa de SM lvl 2 +13 +sorte +16",
+    "precoMedio": 25,
     "classe": "Mago",
-    "tipo": "Arma"
+    "tipo": "Asas e Capas"
+  },
+  {
+    "nome": "Capa +13+Sorte+16 (Capa de Lord)",
+    "precoMedio": 25,
+    "classe": "Lorde",
+    "tipo": "Asas e Capas"
+  },
+  {
+    "nome": "Capa +13+Ig+16",
+    "precoMedio": 140,
+    "classe": "Lorde",
+    "tipo": "Asas e Capas"
+  },
+  {
+    "nome": "Capa Full (DL)",
+    "precoMedio": 345,
+    "classe": "Lorde",
+    "tipo": "Asas e Capas"
+  },
+  {
+    "nome": "Capa DL+Sorte+10",
+    "precoMedio": 15,
+    "classe": "Lorde",
+    "tipo": "Asas e Capas"
+  },
+  {
+    "nome": "Set Valiant SDR+9",
+    "precoMedio": 50,
+    "classe": "Guerreiro",
+    "tipo": "Sets"
+  },
+  {
+    "nome": "Set Valiant SDR+13+16",
+    "precoMedio": 143.33,
+    "classe": "Guerreiro",
+    "tipo": "Sets"
+  },
+  {
+    "nome": "Set Rave ativo +9",
+    "precoMedio": 77.5,
+    "classe": "Arqueiro",
+    "tipo": "Sets"
+  },
+  {
+    "nome": "Set Enis ativo+9",
+    "precoMedio": 60,
+    "classe": "Mago",
+    "tipo": "Sets"
+  },
+  {
+    "nome": "Kit UP BK",
+    "precoMedio": 28,
+    "classe": "Guerreiro",
+    "tipo": "Sets"
+  },
+  {
+    "nome": "Kit UP MG 380 Volcano",
+    "precoMedio": 60,
+    "classe": "Mago",
+    "tipo": "Sets"
+  },
+  {
+    "nome": "Kit UP MG",
+    "precoMedio": 30,
+    "classe": "Mago",
+    "tipo": "Sets"
+  },
+  {
+    "nome": "Kit UP DL",
+    "precoMedio": 40,
+    "classe": "Lorde",
+    "tipo": "Sets"
+  },
+  {
+    "nome": "Set DarkMaster DL +13+SDV",
+    "precoMedio": 85,
+    "classe": "Lorde",
+    "tipo": "Sets"
+  },
+  {
+    "nome": "Set Soley +13+Sorte+16 +add",
+    "precoMedio": 90,
+    "classe": "Mago",
+    "tipo": "Sets"
+  },
+  {
+    "nome": "Sword Dancer+Sorte+Skill+Add+9",
+    "precoMedio": 10,
+    "classe": "Guerreiro",
+    "tipo": "Armas"
+  },
+  {
+    "nome": "Shining Full Madds+11",
+    "precoMedio": 25,
+    "classe": "Arqueiro",
+    "tipo": "Armas"
+  },
+  {
+    "nome": "KB +9+10%+2%",
+    "precoMedio": 9,
+    "classe": "Guerreiro",
+    "tipo": "Armas"
+  },
+  {
+    "nome": "Legendary Staff+9+s+10%+12",
+    "precoMedio": 6,
+    "classe": "Mago",
+    "tipo": "Armas"
+  },
+  {
+    "nome": "Kundun +6+s+10%+pvm(rec)",
+    "precoMedio": 9,
+    "classe": "Guerreiro",
+    "tipo": "Armas"
+  },
+  {
+    "nome": "BB+13+2%",
+    "precoMedio": 345,
+    "classe": "Guerreiro",
+    "tipo": "Armas"
+  },
+  {
+    "nome": "Shield Spiked +13+16 SD",
+    "precoMedio": 25,
+    "classe": "Guerreiro",
+    "tipo": "Escudos"
+  },
+  {
+    "nome": "Shield Dragon Slayer +13+SD",
+    "precoMedio": 20,
+    "classe": "Guerreiro",
+    "tipo": "Escudos"
+  },
+  {
+    "nome": "1K/1K (Jewel of Chaos)",
+    "precoMedio": 22.75,
+    "classe": "Geral",
+    "tipo": "Joias e Itens de Up"
+  },
+  {
+    "nome": "Trade de JOH",
+    "precoMedio": 55,
+    "classe": "Geral",
+    "tipo": "Joias e Itens de Up"
+  },
+  {
+    "nome": "Baú de Complex Médio",
+    "precoMedio": 32.5,
+    "classe": "Geral",
+    "tipo": "Joias e Itens de Up"
+  },
+  {
+    "nome": "Bota Gaion",
+    "precoMedio": 45,
+    "classe": "Geral",
+    "tipo": "Joias e Itens de Up"
+  },
+  {
+    "nome": "Kit anéis Wind+Ice+pendant",
+    "precoMedio": 42.5,
+    "classe": "Geral",
+    "tipo": "Joias e Itens de Up"
+  },
+  {
+    "nome": "Ring fire",
+    "precoMedio": 10,
+    "classe": "Geral",
+    "tipo": "Joias e Itens de Up"
+  },
+  {
+    "nome": "Fenrir Azul",
+    "precoMedio": 131,
+    "classe": "Geral",
+    "tipo": "Pets e Montarias"
+  },
+  {
+    "nome": "Fenrir Preto",
+    "precoMedio": 111,
+    "classe": "Geral",
+    "tipo": "Pets e Montarias"
+  },
+  {
+    "nome": "Dark Horse Nível 50",
+    "precoMedio": 10,
+    "classe": "Lorde",
+    "tipo": "Pets e Montarias"
+  },
+  {
+    "nome": "Dark Raven",
+    "precoMedio": 5,
+    "classe": "Lorde",
+    "tipo": "Pets e Montarias"
   }
 ]
