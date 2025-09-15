@@ -13,15 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw new Error('Não foi possível carregar o arquivo dados.json');
             }
             allItems = await response.json();
-            // Ao carregar, popula a lista de Classe e Tipo
+            
+            // Popula as listas ao carregar os dados
             populateSelect(classeSelect, [...new Set(allItems.map(item => item.classe))]);
             populateSelect(tipoSelect, [...new Set(allItems.map(item => item.tipo))]);
-            // Popula a lista de itens com todos os itens inicialmente
             populateSelect(nomeSelect, [...new Set(allItems.map(item => item.nome))]);
+            
             displayItems(allItems);
         } catch (error) {
             console.error('Erro ao buscar os itens:', error);
-            itemListContainer.innerHTML = '<p>Erro ao carregar os dados. Por favor, tente novamente mais tarde.</p>';
+            itemListContainer.innerHTML = '<p>Erro ao carregar os dados. Por favor, verifique se o arquivo dados.json está correto.</p>';
         }
     };
 
@@ -62,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    // Função principal de filtragem que agora atua em cascata
+    // Função principal de filtragem que atua em cascata
     const filterItems = () => {
         const selectedClasse = classeSelect.value;
         const selectedTipo = tipoSelect.value;
@@ -75,29 +76,20 @@ document.addEventListener('DOMContentLoaded', () => {
             return matchesClasse && matchesTipo && matchesNome;
         });
 
-        // Lógica para atualizar as listas suspensas em cascata
+        const currentClasseValue = classeSelect.value;
+        const currentTipoValue = tipoSelect.value;
+        const currentNomeValue = nomeSelect.value;
+
         const availableClasses = [...new Set(filteredItems.map(item => item.classe))];
         const availableTypes = [...new Set(filteredItems.map(item => item.tipo))];
         const availableNames = [...new Set(filteredItems.map(item => item.nome))];
         
-        // Mantém a opção atual se ela ainda for válida
-        const currentClasseValue = classeSelect.value;
-        const currentTipoValue = tipoSelect.value;
-        const currentNomeValue = nomeSelect.value;
+        // Popula as listas suspensas
+        populateSelect(classeSelect, availableClasses);
+        populateSelect(tipoSelect, availableTypes);
+        populateSelect(nomeSelect, availableNames);
         
-        populateSelect(classeSelect, [...new Set(allItems.map(item => item.classe))]);
-        populateSelect(tipoSelect, [...new Set(allItems.map(item => item.tipo))]);
-        populateSelect(nomeSelect, [...new Set(allItems.map(item => item.nome))]);
-        
-        if (selectedClasse !== '') {
-            populateSelect(tipoSelect, availableTypes);
-            populateSelect(nomeSelect, availableNames);
-        }
-        
-        if (selectedTipo !== '') {
-            populateSelect(nomeSelect, availableNames);
-        }
-        
+        // Mantém o valor selecionado
         classeSelect.value = currentClasseValue;
         tipoSelect.value = currentTipoValue;
         nomeSelect.value = currentNomeValue;
