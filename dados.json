@@ -50,7 +50,7 @@
   {
     "nome": "GLOVES ANUBIS+9+16",
     "precoMedio": 20,
-    "classe": "BK",
+    "classe": "SM",
     "tipo": "Armaduras (Sets)",
     "adicionais": [],
     "nivel": ["+9"]
@@ -752,3 +752,4 @@
     "nivel": ["+13"]
   }
 ]
+
