@@ -1,32 +1,36 @@
-.report-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 15px;
+/*
+ * O código existente do style.css deve estar aqui em cima.
+ * Adicione o código abaixo ao final do arquivo.
+ */
+
+/* Alinhamento dos Filtros na Horizontal */
+.filters {
+    display: flex; /* Define o container como um flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas menores */
+    gap: 20px; /* Adiciona um espaço de 20px entre os itens (filtros) */
+    background-color: #2a2a4e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    justify-content: center; /* Centraliza os filtros no container */
 }
 
-.report-form textarea {
-    width: 100%;
-    padding: 8px;
+/* Opcional: Ajusta a largura dos selects */
+.filters select {
+    width: 200px; /* Você pode ajustar este valor se desejar */
+    padding: 10px;
     border-radius: 5px;
     border: 1px solid #5a5a8e;
     background-color: #3b3b5c;
     color: #e0e0e0;
-    resize: vertical;
-    min-height: 80px;
+    font-size: 1em;
 }
 
-.report-button {
-    background-color: #e74c3c;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 0.9em;
-    transition: background-color 0.3s ease;
-}
-
-.report-button:hover {
-    background-color: #c0392b;
+/* Garante que os grupos de filtro fiquem em colunas em telas pequenas */
+@media (max-width: 768px) {
+    .filters {
+        flex-direction: column; /* Alinha os itens em coluna */
+        align-items: center;
+    }
 }
