@@ -78,6 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p><strong>Tipo:</strong> ${item.tipo}</p>
                 ${adicionais}
                 ${nivel}
+                <button class="report-button" onclick="reportProblem('${item.nome}')">Relatar um problema</button>
             `;
             itemListContainer.appendChild(itemCard);
         });
@@ -108,6 +109,13 @@ document.addEventListener('DOMContentLoaded', () => {
         nivelSelect.value = selectedNivel;
         
         displayItems(filteredItems);
+    };
+    
+    // Nova função para relatar problemas
+    window.reportProblem = (itemName) => {
+        const subject = `Relatar problema com o item: ${itemName}`;
+        const body = `Olá, encontrei um problema com o anúncio do item "${itemName}".\n\nPor favor, descreva o problema abaixo:\n`;
+        window.location.href = `mailto:seu-email-aqui@exemplo.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     };
 
     classeSelect.addEventListener('change', filterItems);
