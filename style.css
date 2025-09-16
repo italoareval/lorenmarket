@@ -17,27 +17,21 @@
 /* Cada grupo de filtro (Label + Select) */
 .filter-group {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    /* Alinha o label e o select um em cima do outro */
     align-items: flex-start;
-    
-    /* Esta é a regra mais importante para o seu problema */
-    flex: 0 1 100px; /* Não cresce, pode encolher, e tem uma largura base de 200px */
+    flex-basis: 200px;         /* Define uma largura base para cada grupo */
+    flex-grow: 1;              /* Permite que o grupo cresça para preencher o espaço */
 }
 
-.filter-group label {
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #c0c0e0;
-}
-
+/* Opcional: Garante que os selects ocupem a largura total do seu grupo */
 .filters select {
-    width: 100%; /* Ocupa 100% da largura do seu contêiner (.filter-group) */
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #5a5a8e;
-    background-color: #3b3b5c;
-    color: #e0e0e0;
-    font-size: 1em;
+    width: 100%;
 }
 
-/* O resto do código (item-grid, etc.) permanece o mesmo */
+/* Para telas pequenas, os filtros voltam para a coluna para melhor visualização */
+@media (max-width: 768px) {
+    .filters {
+        flex-direction: column;
+        align-items: center;
+    }
+}
