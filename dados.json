@@ -3,684 +3,752 @@
     "nome": "SET DARK STEEL+9+ZEN",
     "precoMedio": 12.5,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": ["+9"]
   },
   {
     "nome": "SET VALIANT+9+ZEN",
     "precoMedio": 20,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": ["+9"]
   },
   {
     "nome": "SET PAD+9+ZEN",
     "precoMedio": 10,
     "classe": "SM",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": ["+9"]
   },
   {
     "nome": "SET ADM+9+ZEN",
     "precoMedio": 10,
     "classe": "DL",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": ["+9"]
   },
   {
     "nome": "ARMOR ARUAN+9",
     "precoMedio": 15,
     "classe": "ELF",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "PANTS ENIS+11+16",
     "precoMedio": 20,
     "classe": "SM",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "GLOVES ANUBIS+9+16",
     "precoMedio": 20,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "BOOTS ECLIPSE+9+SDR",
     "precoMedio": 10,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDR"],
+    "nivel": ["+9"]
   },
   {
     "nome": "PANTS DM+9+SDV",
     "precoMedio": 8,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDV"],
+    "nivel": ["+9"]
   },
   {
     "nome": "PANTS DM+9+SDR",
     "precoMedio": 8,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDR"],
+    "nivel": ["+9"]
   },
   {
     "nome": "HELM SPHINX+9+SDV",
     "precoMedio": 5,
     "classe": "SM",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDV"],
+    "nivel": ["+9"]
   },
   {
     "nome": "GLOVES GLORIOUS+9+SRV",
     "precoMedio": 5,
     "classe": "DL",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDV"],
+    "nivel": ["+9"]
   },
   {
     "nome": "ARMOR VALIANT+13+S+M+ZEN",
     "precoMedio": 10,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": ["+13"]
   },
   {
     "nome": "SET LEGENDARY+9+ZEN",
     "precoMedio": 11.67,
     "classe": "SM",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": ["+9"]
   },
   {
     "nome": "PANTS ENIS+11",
     "precoMedio": 20,
     "classe": "SM",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Pants Enis+0",
     "precoMedio": 10,
     "classe": "SM",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": []
   },
   {
     "nome": "Armo Glorius+13+SDV",
     "precoMedio": 15,
     "classe": "DL",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDV"],
+    "nivel": ["+13"]
   },
   {
     "nome": "SET BONE SDV",
     "precoMedio": 60,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDV"],
+    "nivel": []
   },
   {
     "nome": "SET SPHINX SDV",
     "precoMedio": 60,
     "classe": "SM",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDV"],
+    "nivel": []
   },
   {
     "nome": "Set Valiante Sdr +9",
     "precoMedio": 40,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDR"],
+    "nivel": ["+9"]
   },
   {
     "nome": "SET RED SPIRIT+9+S+D+PVM",
     "precoMedio": 15,
     "classe": "ELF",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Set Rave ativo +9",
     "precoMedio": 75,
     "classe": "MG/DL",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Set Enis ativo+9",
     "precoMedio": 60,
     "classe": "SM",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Set Black Dragon+Zen+9 (Kit UP BK)",
     "precoMedio": 28,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": ["+9"]
   },
   {
     "nome": "Set Volcano+Zen+9 (Kit UP MG)",
     "precoMedio": 60,
     "classe": "MG",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": ["+9"]
   },
   {
     "nome": "Set Adamantine+9+Zen (Kit UP DL)",
     "precoMedio": 40,
     "classe": "DL",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": ["+9"]
   },
   {
     "nome": "Set Storm+Zen+9 (Kit UP MG)",
     "precoMedio": 30,
     "classe": "MG",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": ["+9"]
   },
   {
     "nome": "Valiant+13+SDR+16",
     "precoMedio": 141.67,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDR"],
+    "nivel": ["+13"]
   },
   {
     "nome": "Set Glorious +13+SDR+16",
     "precoMedio": 140,
     "classe": "DL",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDR"],
+    "nivel": ["+13"]
   },
   {
     "nome": "Set Great Dragon SDR+13",
     "precoMedio": 120,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDR"],
+    "nivel": ["+13"]
   },
   {
     "nome": "Set Bone Sdr+13+16",
     "precoMedio": 75,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["SDR"],
+    "nivel": ["+13"]
   },
   {
     "nome": "Kit UP DL + BK + ELF",
     "precoMedio": 22.5,
     "classe": "Diversas",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": []
   },
   {
     "nome": "Kit UP DL",
     "precoMedio": 25,
     "classe": "DL",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": []
   },
   {
     "nome": "Kit UP BK",
     "precoMedio": 25,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": []
   },
   {
     "nome": "Kit UP ELF",
     "precoMedio": 25,
     "classe": "ELF",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": []
   },
   {
     "nome": "Set Muren ativo+9",
     "precoMedio": 120,
     "classe": "MG/DL",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Set 380DL +13 Diminui Roxo",
     "precoMedio": 220,
     "classe": "DL",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Set Venom Mist +9ZEN",
     "precoMedio": 50,
     "classe": "BK/SM",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": ["+9"]
   },
   {
     "nome": "Anubis +9",
     "precoMedio": 200,
-    "classe": "BK/SM",
-    "tipo": "Armaduras (Sets)"
+    "classe": "SM",
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Muren + Gaion +0",
     "precoMedio": 180,
     "classe": "MG/DL",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": []
   },
   {
     "nome": "Set Aruan+9",
     "precoMedio": 35,
     "classe": "ELF",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Vicious+9",
     "precoMedio": 50,
     "classe": "BK",
-    "tipo": "Armaduras (Sets)"
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "WING SM LV2+13+S+16",
     "precoMedio": 35,
     "classe": "SM",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "WING LV2 SM/MG/BK/ELF/CAPA NOOB",
     "precoMedio": 6.5,
     "classe": "Diversas",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": []
   },
   {
     "nome": "Capa+13+S",
     "precoMedio": 15,
     "classe": "DL",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "ASA LVL 1",
     "precoMedio": 52.33,
     "classe": "Diversas",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": []
   },
   {
     "nome": "ASA DE BK LVL2 LISA BÁSICA",
     "precoMedio": 3,
     "classe": "BK",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": []
   },
   {
     "nome": "Capa+9+ing",
     "precoMedio": 65,
     "classe": "DL",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Asa de BK sorte +11+16",
     "precoMedio": 15,
     "classe": "BK",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "ASA SM,BK,ELF,MG LISA",
     "precoMedio": 5,
     "classe": "Diversas",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": []
   },
   {
     "nome": "Asa de BK +11 ig+4%",
     "precoMedio": 100,
     "classe": "BK",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Asa de BK+13+S+4%+MANA",
     "precoMedio": 35,
     "classe": "BK",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Capa de DL +13+Sorte+16",
     "precoMedio": 20,
     "classe": "DL",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Cape of Lord+13+Sorte",
     "precoMedio": 25,
     "classe": "DL",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Capa de DL Full+13",
     "precoMedio": 345,
     "classe": "DL",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Asa de BK Sorte+13",
     "precoMedio": 27.5,
     "classe": "BK",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Asa BK Full 4%",
     "precoMedio": 320,
     "classe": "BK",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": []
   },
   {
     "nome": "Asa de BK sorte +13+16",
     "precoMedio": 28,
     "classe": "BK",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Capa sorte+13+16",
     "precoMedio": 18,
     "classe": "DL",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Asa de SM Full 4%",
     "precoMedio": 350,
     "classe": "SM",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": []
   },
   {
     "nome": "Capa+13+S+16",
     "precoMedio": 20,
     "classe": "DL",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Sm+9+Ing+4%",
     "precoMedio": 90,
     "classe": "SM",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Bk+13+S+16",
     "precoMedio": 25,
     "classe": "BK",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Bk+13+S+4%",
     "precoMedio": 30,
     "classe": "BK",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Asa de MG+13+IG",
     "precoMedio": 200,
     "classe": "MG",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "ASA SM+9+IG+16",
     "precoMedio": 80,
     "classe": "SM",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Asa de mg +9+ig",
     "precoMedio": 85,
     "classe": "MG",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "WING BK+13+M+16",
     "precoMedio": 15,
     "classe": "BK",
-    "tipo": "Asas e Capas"
+    "tipo": "Asas e Capas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "STAFF KUNDUN+13+2MADDS",
     "precoMedio": 30,
     "classe": "SM/MG",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "KUNDUN STAFF+9+S+10%",
     "precoMedio": 8,
     "classe": "SM/MG",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "ALBA BOW+9+S+MANA(PVM)",
     "precoMedio": 8,
     "classe": "ELF",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "ARROW VIPER BOW+11+S+10%",
     "precoMedio": 10,
     "classe": "ELF",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "DIVINE SCEPTER+9+S+MANA(PVM)",
     "precoMedio": 8,
     "classe": "DL",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "DRB+9+S+MANA(PVM)",
     "precoMedio": 8,
     "classe": "BK",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "LORD SCEPTER+9+S+10%+VELO",
     "precoMedio": 8,
     "classe": "DL",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Sword Dancer+Sorte+Skill+Add+9",
     "precoMedio": 10,
     "classe": "MG/DL",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Shining Full MADS+11",
     "precoMedio": 25,
     "classe": "SM",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "KB +9+10%+2%",
     "precoMedio": 9,
     "classe": "BK",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Legendary Staff+9+s+10%+12",
     "precoMedio": 6,
     "classe": "SM",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+9", "+13"]
   },
   {
     "nome": "Kundum +6+s+10%+pvm(rec)",
     "precoMedio": 9,
     "classe": "SM",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": []
   },
   {
     "nome": "DIVINE SCREPTER +13+16 2MDD",
     "precoMedio": 25,
     "classe": "DL",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Soley +13+Sorte+16 +add Roxo (Não exe)",
     "precoMedio": 90,
     "classe": "SM",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Aruan Guardian",
     "precoMedio": 60,
     "classe": "ELF",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": []
   },
   {
     "nome": "Solie+9 Sorte+vel+pvm+pvm",
     "precoMedio": 350,
     "classe": "SM",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Viper+13+S+Roxo+16",
     "precoMedio": 150,
     "classe": "ELF",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
     "nome": "Leg+13+SDRV",
     "precoMedio": 3500,
     "classe": "SM",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": ["SDV", "SDR"],
+    "nivel": ["+13"]
   },
   {
     "nome": "Storn Crow+13+SDR",
     "precoMedio": 65,
     "classe": "MG/DL",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": ["SDR"],
+    "nivel": ["+13"]
   },
   {
     "nome": "RuneBlade+9+s+skill+10%",
     "precoMedio": 4,
     "classe": "SM/MG",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "Shining+9+sorte+2%",
     "precoMedio": 4,
     "classe": "SM",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+9"]
   },
   {
     "nome": "SL+13 SDR",
     "precoMedio": 3500,
     "classe": "SM/MG",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": ["SDR"],
+    "nivel": ["+13"]
   },
   {
     "nome": "VM+13 SDV",
-    "precoMedio": 2200,
-    "classe": "BK",
-    "tipo": "Armas"
-  },
-  {
-    "nome": "VIPER+13 2 MADDS+PVM MANA",
-    "precoMedio": 1800,
-    "classe": "ELF",
-    "tipo": "Armas"
-  },
-  {
-    "nome": "Platina+13+2Madds",
-    "precoMedio": 40,
-    "classe": "BK",
-    "tipo": "Armas"
-  },
-  {
-    "nome": "Dancer+13+2Madds",
-    "precoMedio": 50,
-    "classe": "MG/DL",
-    "tipo": "Armas"
+    "precoMedio": 3500,
+    "classe": "BK/SM",
+    "tipo": "Armas",
+    "adicionais": ["SDV"],
+    "nivel": ["+13"]
   },
   {
     "nome": "VM+9+Z",
     "precoMedio": 50,
     "classe": "BK",
-    "tipo": "Armas"
+    "tipo": "Armas",
+    "adicionais": ["Zen"],
+    "nivel": ["+9"]
   },
   {
-    "nome": "SH DRAGON+13+S+M+ZEN",
-    "precoMedio": 20,
+    "nome": "Platina+13+2Madds",
+    "precoMedio": 40,
     "classe": "BK",
-    "tipo": "Escudos e Itens de Mão"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+13"]
   },
   {
-    "nome": "SH DRAGON+9+M+ZEN",
-    "precoMedio": 7,
-    "classe": "BK",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "LARGE ROUND SHIELD+9+ZEN",
-    "precoMedio": 7,
-    "classe": "BK",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "SH SKULL+9+ZEN",
-    "precoMedio": 7,
-    "classe": "BK",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "SH SKULL+9+S+R+PVM",
-    "precoMedio": 7,
-    "classe": "BK",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "Spiked+13+SSDR",
-    "precoMedio": 25,
-    "classe": "BK",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "SH GS+13 SDV",
-    "precoMedio": 30,
-    "classe": "SM",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "SH LEG+13 SDPVM",
-    "precoMedio": 25,
-    "classe": "SM",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "Bota Gaion",
-    "precoMedio": 45,
+    "nome": "Dancer+13+2Madds",
+    "precoMedio": 50,
     "classe": "MG/DL",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "Spiked Shield +13+16 SDR",
-    "precoMedio": 25,
-    "classe": "BK",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "Shild Dragon Slayer +13+SDV",
-    "precoMedio": 20,
-    "classe": "DL",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "Shield Spiked SDRV",
-    "precoMedio": 180,
-    "classe": "BK",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "SH SPIKED+13 SDRV",
-    "precoMedio": 200,
-    "classe": "BK",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "Helm leather+0+sdr",
-    "precoMedio": 5,
-    "classe": "ELF",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "Helm leather+0+sdv",
-    "precoMedio": 5,
-    "classe": "ELF",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "Luva Anúbis +0",
-    "precoMedio": 15,
-    "classe": "BK/SM",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "SH SKULL+9+ZEN",
-    "precoMedio": 7,
-    "classe": "BK",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "SH DRAGON+9+M+ZEN",
-    "precoMedio": 7,
-    "classe": "BK",
-    "tipo": "Escudos e Itens de Mão"
-  },
-  {
-    "nome": "LARGE ROUND SHIELD+9+ZEN",
-    "precoMedio": 7,
-    "classe": "BK",
-    "tipo": "Escudos e Itens de Mão"
+    "tipo": "Armas",
+    "adicionais": [],
+    "nivel": ["+13"]
   }
 ]
