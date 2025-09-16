@@ -1,37 +1,32 @@
-/* Container principal dos filtros */
-.filters {
-    display: flex;             /* Ativa o Flexbox para alinhar itens */
-    flex-direction: row;       /* Garante que os itens fiquem na mesma linha */
-    flex-wrap: wrap;           /* Permite que os itens quebrem para a linha de baixo se não houver espaço */
-    justify-content: center;   /* Centraliza os itens horizontalmente */
-    align-items: flex-end;     /* Alinha os itens pela base, para que fiquem pareados */
-    gap: 20px;                 /* Adiciona um espaço de 20px entre cada item */
-    
-    background-color: #2a2a4e;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    margin-bottom: 30px;
-}
-
-/* Cada grupo de filtro (Label + Select) */
-.filter-group {
+.report-form {
     display: flex;
-    flex-direction: column;    /* Alinha o label e o select um em cima do outro */
-    align-items: flex-start;
-    flex-basis: 200px;         /* Define uma largura base para cada grupo */
-    flex-grow: 1;              /* Permite que o grupo cresça para preencher o espaço */
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
 }
 
-/* Opcional: Garante que os selects ocupem a largura total do seu grupo */
-.filters select {
+.report-form textarea {
     width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #5a5a8e;
+    background-color: #3b3b5c;
+    color: #e0e0e0;
+    resize: vertical;
+    min-height: 80px;
 }
 
-/* Para telas pequenas, os filtros voltam para a coluna para melhor visualização */
-@media (max-width: 768px) {
-    .filters {
-        flex-direction: column;
-        align-items: center;
-    }
+.report-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.report-button:hover {
+    background-color: #c0392b;
 }
