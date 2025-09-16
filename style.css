@@ -1,4 +1,38 @@
-/* Container principal dos filtros */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0f0f1a;
+    color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #5a5a8e;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #aaa;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Container para a faixa roxa dos filtros */
 .filters {
     display: flex;
     flex-direction: row;
@@ -7,7 +41,6 @@
     align-items: flex-end;
     gap: 20px;
     
-    /* Esta parte define a faixa roxa e o espaçamento */
     background-color: #2a2a4e;
     padding: 20px;
     border-radius: 8px;
@@ -20,9 +53,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
-    /* Largura base de 100px para cada filtro */
-    flex: 0 1 100px;
+    flex: 0 1 100px; /* Largura base de 100px para cada filtro */
 }
 
 .filter-group label {
@@ -33,13 +64,87 @@
 
 /* O select dentro do grupo de filtros */
 .filters select {
-    width: 100%; /* Ocupa a largura total do seu contêiner (.filter-group) */
+    width: 100%;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #5a5a8e;
     background-color: #3b3b5c;
     color: #e0e0e0;
     font-size: 1em;
+}
+
+/* Formato de Grade para os Anúncios */
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.item-card {
+    background-color: #2a2a4e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid #5a5a8e;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.item-card h3 {
+    margin-top: 0;
+    color: #f0f0ff;
+    border-bottom: 2px solid #5a5a8e;
+    padding-bottom: 10px;
+}
+
+.item-card p {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #5a5a8e;
+    color: #888;
+}
+
+/* Estilo para o formulário de Relatar Problema */
+.report-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.report-form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #5a5a8e;
+    background-color: #3b3b5c;
+    color: #e0e0e0;
+    resize: vertical;
+    min-height: 80px;
+}
+
+.report-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.report-button:hover {
+    background-color: #c0392b;
 }
 
 /* Para telas pequenas */
