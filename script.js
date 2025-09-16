@@ -7,8 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const nivelSelect = document.getElementById('filter-nivel');
     let allItems = [];
 
-    const formspreeUrl = "https://formspree.io/f/seucodigoaqui";
-
     const fetchItems = async () => {
         try {
             const response = await fetch('dados.json');
@@ -80,11 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p><strong>Tipo:</strong> ${item.tipo}</p>
                 ${adicionais}
                 ${nivel}
-                <form action="${formspreeUrl}" method="POST" class="report-form">
-                    <input type="hidden" name="Item" value="${item.nome}">
-                    <textarea name="Mensagem" placeholder="Descreva o problema" required></textarea>
-                    <button type="submit" class="report-button">Relatar Problema</button>
-                </form>
+                <button class="report-button" onclick="reportProblem('${item.nome}')">Relatar um problema</button>
             `;
             itemListContainer.appendChild(itemCard);
         });
@@ -115,6 +109,13 @@ document.addEventListener('DOMContentLoaded', () => {
         nivelSelect.value = selectedNivel;
         
         displayItems(filteredItems);
+    };
+    
+    // Nova função para relatar problemas
+    window.reportProblem = (itemName) => {
+        const subject = `Relatar problema com o item: ${itemName}`;
+        const body = `Olá, encontrei um problema com o anúncio do item "${itemName}".\n\nPor favor, descreva o problema abaixo:\n`;
+        window.location.href = `mailto:seu-email-aqui@exemplo.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     };
 
     classeSelect.addEventListener('change', filterItems);
