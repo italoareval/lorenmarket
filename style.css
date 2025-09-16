@@ -1,24 +1,66 @@
-/*
- * O código existente do style.css deve estar aqui em cima.
- * Adicione o código abaixo ao final do arquivo.
- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
 
-/* Alinhamento dos Filtros na Horizontal */
+header {
+    background-color: #0f0f1a;
+    color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #5a5a8e;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #aaa;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
 .filters {
-    display: flex; /* Define o container como um flexbox */
-    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas menores */
-    gap: 20px; /* Adiciona um espaço de 20px entre os itens (filtros) */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     background-color: #2a2a4e;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin-bottom: 30px;
-    justify-content: center; /* Centraliza os filtros no container */
+    justify-content: center;
+    align-items: flex-end; /* Alinha a base dos elementos, para que fiquem pareados se houver rótulos */
 }
 
-/* Opcional: Ajusta a largura dos selects */
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1; /* Permite que o elemento cresça para ocupar o espaço disponível */
+    min-width: 150px; /* Define uma largura mínima para evitar que ele fique muito pequeno */
+}
+
+.filter-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #c0c0e0;
+}
+
 .filters select {
-    width: 200px; /* Você pode ajustar este valor se desejar */
+    width: 100%; /* Garante que o select ocupe a largura total do seu contêiner (.filter-group) */
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #5a5a8e;
@@ -27,10 +69,86 @@
     font-size: 1em;
 }
 
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.item-card {
+    background-color: #2a2a4e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid #5a5a8e;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.item-card h3 {
+    margin-top: 0;
+    color: #f0f0ff;
+    border-bottom: 2px solid #5a5a8e;
+    padding-bottom: 10px;
+}
+
+.item-card p {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #5a5a8e;
+    color: #888;
+}
+
+/* Estilo para o formulário de Relatar Problema */
+.report-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.report-form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #5a5a8e;
+    background-color: #3b3b5c;
+    color: #e0e0e0;
+    resize: vertical;
+    min-height: 80px;
+}
+
+.report-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.report-button:hover {
+    background-color: #c0392b;
+}
+
 /* Garante que os grupos de filtro fiquem em colunas em telas pequenas */
 @media (max-width: 768px) {
     .filters {
-        flex-direction: column; /* Alinha os itens em coluna */
+        flex-direction: column;
         align-items: center;
+    }
+    .filters select {
+        width: 100%;
     }
 }
