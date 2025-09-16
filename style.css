@@ -7,6 +7,7 @@
     align-items: flex-end;
     gap: 20px;
     
+    /* Esta parte define a faixa roxa e o espaçamento */
     background-color: #2a2a4e;
     padding: 20px;
     border-radius: 8px;
@@ -20,8 +21,8 @@
     flex-direction: column;
     align-items: flex-start;
     
-    /* Largura base ajustada para 100px */
-    flex: 0 1 100px; 
+    /* Largura base de 100px para cada filtro */
+    flex: 0 1 100px;
 }
 
 .filter-group label {
@@ -30,8 +31,9 @@
     color: #c0c0e0;
 }
 
+/* O select dentro do grupo de filtros */
 .filters select {
-    width: 100%;
+    width: 100%; /* Ocupa a largura total do seu contêiner (.filter-group) */
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #5a5a8e;
@@ -40,4 +42,10 @@
     font-size: 1em;
 }
 
-/* O resto do código (item-grid, etc.) permanece o mesmo */
+/* Para telas pequenas */
+@media (max-width: 768px) {
+    .filters {
+        flex-direction: column;
+        align-items: center;
+    }
+}
