@@ -1,11 +1,11 @@
 /* Container principal dos filtros */
 .filters {
-    display: flex;             /* Ativa o Flexbox para alinhar itens */
-    flex-direction: row;       /* Garante que os itens fiquem na mesma linha */
-    flex-wrap: wrap;           /* Permite que os itens quebrem para a linha de baixo se não houver espaço */
-    justify-content: center;   /* Centraliza os itens horizontalmente */
-    align-items: flex-end;     /* Alinha os itens pela base, para que fiquem pareados */
-    gap: 20px;                 /* Adiciona um espaço de 20px entre cada item */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
     
     background-color: #2a2a4e;
     padding: 20px;
@@ -20,8 +20,8 @@
     flex-direction: column;
     align-items: flex-start;
     
-    /* Esta é a regra mais importante para o seu problema */
-    flex: 0 1 200px; /* Não cresce, pode encolher, e tem uma largura base de 200px */
+    /* Largura base ajustada para 100px */
+    flex: 0 1 100px; 
 }
 
 .filter-group label {
@@ -31,7 +31,7 @@
 }
 
 .filters select {
-    width: 100%; /* Ocupa 100% da largura do seu contêiner (.filter-group) */
+    width: 100%;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #5a5a8e;
