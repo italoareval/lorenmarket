@@ -3,9 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const classeSelect = document.getElementById('filter-classe');
     const tipoSelect = document.getElementById('filter-tipo');
     const nomeSelect = document.getElementById('filter-nome');
+    const adicionaisSelect = document.getElementById('filter-adicionais');
+    const nivelSelect = document.getElementById('filter-nivel');
     let allItems = [];
 
-    // Função para carregar os dados do arquivo JSON
     const fetchItems = async () => {
         try {
             const response = await fetch('dados.json');
@@ -14,11 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             allItems = await response.json();
             
-            // Popula as listas ao carregar os dados
-            populateSelect(classeSelect, [...new Set(allItems.map(item => item.classe))]);
-            populateSelect(tipoSelect, [...new Set(allItems.map(item => item.tipo))]);
-            populateSelect(nomeSelect, [...new Set(allItems.map(item => item.nome))]);
-            
+            populateFilters(allItems);
             displayItems(allItems);
         } catch (error) {
             console.error('Erro ao buscar os itens:', error);
@@ -26,14 +23,18 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Função genérica para preencher qualquer select
     const populateSelect = (selectElement, itemsArray) => {
         const selectedValue = selectElement.value;
         const defaultOption = selectElement.querySelector('option[value=""]').cloneNode(true);
         selectElement.innerHTML = '';
         selectElement.appendChild(defaultOption);
 
-        itemsArray.sort().forEach(item => {
+        itemsArray.sort((a, b) => {
+            if (a.startsWith('+') && b.startsWith('+')) {
+                return parseInt(a.substring(1)) - parseInt(b.substring(1));
+            }
+            return a.localeCompare(b);
+        }).forEach(item => {
             const option = document.createElement('option');
             option.value = item;
             option.textContent = item;
@@ -42,7 +43,20 @@ document.addEventListener('DOMContentLoaded', () => {
         selectElement.value = selectedValue;
     };
 
-    // Função para renderizar os itens na página
+    const populateFilters = (items) => {
+        const uniqueClasses = [...new Set(items.map(item => item.classe))];
+        const uniqueTipos = [...new Set(items.map(item => item.tipo))];
+        const uniqueNomes = [...new Set(items.map(item => item.nome))];
+        const uniqueAdicionais = [...new Set(items.flatMap(item => item.adicionais))];
+        const uniqueNiveis = [...new Set(items.flatMap(item => item.nivel))];
+        
+        populateSelect(classeSelect, uniqueClasses);
+        populateSelect(tipoSelect, uniqueTipos);
+        populateSelect(nomeSelect, uniqueNomes);
+        populateSelect(adicionaisSelect, uniqueAdicionais);
+        populateSelect(nivelSelect, uniqueNiveis);
+    };
+
     const displayItems = (items) => {
         itemListContainer.innerHTML = '';
         if (items.length === 0) {
@@ -53,55 +67,54 @@ document.addEventListener('DOMContentLoaded', () => {
         items.forEach(item => {
             const itemCard = document.createElement('div');
             itemCard.classList.add('item-card');
+            
+            const adicionais = item.adicionais.length > 0 ? `<p><strong>Adicionais:</strong> ${item.adicionais.join(', ')}</p>` : '';
+            const nivel = item.nivel.length > 0 ? `<p><strong>Nível:</strong> ${item.nivel.join(', ')}</p>` : '';
+
             itemCard.innerHTML = `
                 <h3>${item.nome}</h3>
                 <p><strong>Preço Médio:</strong> R$ ${item.precoMedio}</p>
                 <p><strong>Classe:</strong> ${item.classe}</p>
                 <p><strong>Tipo:</strong> ${item.tipo}</p>
+                ${adicionais}
+                ${nivel}
             `;
             itemListContainer.appendChild(itemCard);
         });
     };
 
-    // Função principal de filtragem que atua em cascata
     const filterItems = () => {
         const selectedClasse = classeSelect.value;
         const selectedTipo = tipoSelect.value;
         const selectedNome = nomeSelect.value;
+        const selectedAdicional = adicionaisSelect.value;
+        const selectedNivel = nivelSelect.value;
 
         let filteredItems = allItems.filter(item => {
             const matchesClasse = selectedClasse === '' || item.classe === selectedClasse;
             const matchesTipo = selectedTipo === '' || item.tipo === selectedTipo;
             const matchesNome = selectedNome === '' || item.nome === selectedNome;
-            return matchesClasse && matchesTipo && matchesNome;
+            const matchesAdicional = selectedAdicional === '' || item.adicionais.includes(selectedAdicional);
+            const matchesNivel = selectedNivel === '' || item.nivel.includes(selectedNivel);
+            return matchesClasse && matchesTipo && matchesNome && matchesAdicional && matchesNivel;
         });
 
-        const currentClasseValue = classeSelect.value;
-        const currentTipoValue = tipoSelect.value;
-        const currentNomeValue = nomeSelect.value;
-
-        const availableClasses = [...new Set(filteredItems.map(item => item.classe))];
-        const availableTypes = [...new Set(filteredItems.map(item => item.tipo))];
-        const availableNames = [...new Set(filteredItems.map(item => item.nome))];
+        populateFilters(filteredItems);
         
-        // Popula as listas suspensas
-        populateSelect(classeSelect, availableClasses);
-        populateSelect(tipoSelect, availableTypes);
-        populateSelect(nomeSelect, availableNames);
-        
-        // Mantém o valor selecionado
-        classeSelect.value = currentClasseValue;
-        tipoSelect.value = currentTipoValue;
-        nomeSelect.value = currentNomeValue;
+        classeSelect.value = selectedClasse;
+        tipoSelect.value = selectedTipo;
+        nomeSelect.value = selectedNome;
+        adicionaisSelect.value = selectedAdicional;
+        nivelSelect.value = selectedNivel;
         
         displayItems(filteredItems);
     };
 
-    // Eventos de mudança para cada select
     classeSelect.addEventListener('change', filterItems);
     tipoSelect.addEventListener('change', filterItems);
     nomeSelect.addEventListener('change', filterItems);
+    adicionaisSelect.addEventListener('change', filterItems);
+    nivelSelect.addEventListener('change', filterItems);
 
-    // Inicia o processo carregando os itens
     fetchItems();
 });
