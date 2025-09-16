@@ -606,4 +606,81 @@
     "tipo": "Escudos e Itens de Mão"
   },
   {
-    "nome": "SH
+    "nome": "SH GS+13 SDV",
+    "precoMedio": 30,
+    "classe": "SM",
+    "tipo": "Escudos e Itens de Mão"
+  },
+  {
+    "nome": "SH LEG+13 SDPVM",
+    "precoMedio": 25,
+    "classe": "SM",
+    "tipo": "Escudos e Itens de Mão"
+  },
+  {
+    "nome": "Bota Gaion",
+    "precoMedio": 45,
+    "classe": "MG/DL",
+    "tipo": "Escudos e Itens de Mão"
+  },
+  {
+    "nome": "Spiked Shield +13+16 SDR",
+    "precoMedio": 25,
+    "classe": "BK",
+    "tipo": "Escudos e Itens de Mão"
+  },
+  {
+    "nome": "Shild Dragon Slayer +13+SDV",
+    "precoMedio": 20,
+    "classe": "DL",
+    "tipo": "Escudos e Itens de Mão"
+  },
+  {
+    "nome": "Shield Spiked SDRV",
+    "precoMedio": 180,
+    "classe": "BK",
+    "tipo": "Escudos e Itens de Mão"
+  },
+  {
+    "nome": "SH SPIKED+13 SDRV",
+    "precoMedio": 200,
+    "classe": "BK",
+    "tipo": "Escudos e Itens de Mão"
+  },
+  {
+    "nome": "Helm leather+0+sdr",
+    "precoMedio": 5,
+    "classe": "ELF",
+    "tipo": "Escudos e Itens de Mão"
+  },
+  {
+    "nome": "Helm leather+0+sdv",
+    "precoMedio": 5,
+    "classe": "ELF",
+    "tipo": "Escudos e Itens de Mão"
+  },
+  {
+    "nome": "Luva Anúbis +0",
+    "precoMedio": 15,
+    "classe": "BK/SM",
+    "tipo": "Escudos e Itens de Mão"
+  },
+  {
+    "nome": "SH SKULL+9+ZEN",
+    "precoMedio": 7,
+    "classe": "BK",
+    "tipo": "Escudos e Itens de Mão"
+  },
+  {
+    "nome": "SH DRAGON+9+M+ZEN",
+    "precoMedio": 7,
+    "classe": "BK",
+    "tipo": "Escudos e Itens de Mão"
+  },
+  {
+    "nome": "LARGE ROUND SHIELD+9+ZEN",
+    "precoMedio": 7,
+    "classe": "BK",
+    "tipo": "Escudos e Itens de Mão"
+  }
+]
