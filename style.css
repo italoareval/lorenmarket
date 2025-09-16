@@ -1,16 +1,51 @@
-/* Estilo para o botão de Relatar Problema */
-.report-button {
-    background-color: #e74c3c;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 0.9em;
-    margin-top: 15px;
-    transition: background-color 0.3s ease;
+/* Container principal dos filtros */
+.filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    
+    /* Esta parte define a faixa roxa e o espaçamento */
+    background-color: #2a2a4e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
 }
 
-.report-button:hover {
-    background-color: #c0392b;
+/* Cada grupo de filtro (Label + Select) */
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    /* Largura base de 100px para cada filtro */
+    flex: 0 1 100px;
+}
+
+.filter-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #c0c0e0;
+}
+
+/* O select dentro do grupo de filtros */
+.filters select {
+    width: 100%; /* Ocupa a largura total do seu contêiner (.filter-group) */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #5a5a8e;
+    background-color: #3b3b5c;
+    color: #e0e0e0;
+    font-size: 1em;
+}
+
+/* Para telas pequenas */
+@media (max-width: 768px) {
+    .filters {
+        flex-direction: column;
+        align-items: center;
+    }
 }
