@@ -3,48 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loren Market Mucabrasil</title>
+    <title>Tabela de Preços - Mu Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Loren Market Mucabrasil</h1>
-        <p>Encontre o valor médio dos itens do jogo para fazer o melhor negócio!</p>
+        <h1>Preços de Itens do Mu Online</h1>
+        <p>Tabela de referência para o valor de mercado de itens no servidor.</p>
     </header>
 
     <main>
-        <section class="filters-container">
-            <h3>Filtrar Itens</h3>
+        <section class="filters">
             <div class="filter-group">
                 <label for="filter-classe">Classe:</label>
                 <select id="filter-classe">
-                    <option value="">Todas as Classes</option>
+                    <option value="">Todas</option>
                 </select>
             </div>
             <div class="filter-group">
                 <label for="filter-tipo">Tipo:</label>
                 <select id="filter-tipo">
-                    <option value="">Todos os Tipos</option>
+                    <option value="">Todos</option>
                 </select>
             </div>
             <div class="filter-group">
-                <label for="filter-nome">Item:</label>
+                <label for="filter-nome">Nome:</label>
                 <select id="filter-nome">
-                    <option value="">Todos os Itens</option>
+                    <option value="">Todos</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="filter-adicionais">Adicionais:</label>
+                <select id="filter-adicionais">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="filter-nivel">Nível:</label>
+                <select id="filter-nivel">
+                    <option value="">Todos</option>
                 </select>
             </div>
         </section>
 
-        <section class="item-list-container">
-            <h2>Lista de Itens</h2>
-            <div id="item-list">
-                </div>
-        </section>
+        <section id="item-list" class="item-grid">
+            </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Loren Market Mucabrasil. Dados alimentados manualmente.</p>
+        <p>Desenvolvido com o ChatGPT & Gemini. Dados atualizados manualmente.</p>
     </footer>
 
     <script src="script.js"></script>
