@@ -7,8 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const nivelSelect = document.getElementById('filter-nivel');
     let allItems = [];
 
-    // URL do seu formulário no Formspree
-    const formspreeUrl = "https://formspree.io/f/mdklrayw";
+    const formspreeUrl = "https://formspree.io/f/seucodigoaqui";
 
     const fetchItems = async () => {
         try {
