@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             displayItems(allItems);
         } catch (error) {
             console.error('Erro ao buscar os itens:', error);
-            itemListContainer.innerHTML = '<p>Erro ao carregar os dados. Por favor, verifique se o arquivo dados.json está correto.</p>';
+            itemListContainer.innerHTML = '<p>Erro ao carregar os dados. Por favor, verifique se o arquivo dados.json está formatado corretamente.</p>';
         }
     };
 
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             itemCard.classList.add('item-card');
             itemCard.innerHTML = `
                 <h3>${item.nome}</h3>
-                <p><strong>Preço Médio:</strong> ${item.precoMedio} Zen</p>
+                <p><strong>Preço Médio:</strong> R$ ${item.precoMedio}</p>
                 <p><strong>Classe:</strong> ${item.classe}</p>
                 <p><strong>Tipo:</strong> ${item.tipo}</p>
             `;
