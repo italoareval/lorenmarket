@@ -154,3 +154,35 @@ footer {
         align-items: center;
     }
 }
+/* Estilo para o Pop-up do Gráfico */
+#price-popup {
+    display: none; /* Começa oculto */
+    position: absolute;
+    background-color: #3b3b5c;
+    border: 1px solid #5a5a8e;
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 100;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    min-width: 220px;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; /* Garante que o mouse não interaja com ele */
+}
+
+#price-popup h4 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    color: #f0f0ff;
+    font-size: 1em;
+}
+
+#price-chart {
+    background-color: #1a1a2e;
+    border-radius: 5px;
+}
+
+/* Efeito de hover no nome do item para mostrar o pop-up */
+.item-card h3:hover + #price-popup {
+    display: block;
+    opacity: 1;
+}
