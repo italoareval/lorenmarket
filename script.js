@@ -5,9 +5,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const nomeSelect = document.getElementById('filter-nome');
     const adicionaisSelect = document.getElementById('filter-adicionais');
     const nivelSelect = document.getElementById('filter-nivel');
+    const popup = document.getElementById('price-popup');
+    const canvas = document.getElementById('price-chart');
+    const ctx = canvas.getContext('2d');
     let allItems = [];
-
-    // URL do seu formulário no Formspree
     const formspreeUrl = "https://formspree.io/f/mdklrayw";
 
     const fetchItems = async () => {
@@ -17,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw new Error('Não foi possível carregar o arquivo dados.json');
             }
             allItems = await response.json();
-            
             populateFilters(allItems);
             displayItems(allItems);
         } catch (error) {
@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const defaultOption = selectElement.querySelector('option[value=""]').cloneNode(true);
         selectElement.innerHTML = '';
         selectElement.appendChild(defaultOption);
-
         itemsArray.sort((a, b) => {
             if (a.startsWith('+') && b.startsWith('+')) {
                 return parseInt(a.substring(1)) - parseInt(b.substring(1));
@@ -52,7 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const uniqueNomes = [...new Set(items.map(item => item.nome))];
         const uniqueAdicionais = [...new Set(items.flatMap(item => item.adicionais))];
         const uniqueNiveis = [...new Set(items.flatMap(item => item.nivel))];
-        
         populateSelect(classeSelect, uniqueClasses);
         populateSelect(tipoSelect, uniqueTipos);
         populateSelect(nomeSelect, uniqueNomes);
@@ -88,6 +86,68 @@ document.addEventListener('DOMContentLoaded', () => {
                 </form>
             `;
             itemListContainer.appendChild(itemCard);
+
+            const itemNameElement = itemCard.querySelector('h3');
+            itemNameElement.addEventListener('mouseover', (e) => showPopup(e, item.historicoPreco));
+            itemNameElement.addEventListener('mouseout', hidePopup);
+        });
+    };
+    
+    // Funções para o pop-up do gráfico
+    const showPopup = (e, historico) => {
+        if (!historico || historico.length < 2) {
+            return; // Não mostra se não houver dados suficientes
+        }
+        
+        // Posiciona o pop-up
+        popup.style.display = 'block';
+        const rect = e.target.getBoundingClientRect();
+        popup.style.top = `${window.scrollY + rect.bottom + 5}px`;
+        popup.style.left = `${window.scrollX + rect.left}px`;
+        
+        drawGraph(historico);
+    };
+
+    const hidePopup = () => {
+        popup.style.display = 'none';
+    };
+
+    const drawGraph = (prices) => {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        const padding = 10;
+        const width = canvas.width - 2 * padding;
+        const height = canvas.height - 2 * padding;
+        
+        const maxPrice = Math.max(...prices);
+        const minPrice = Math.min(...prices);
+        const priceRange = maxPrice - minPrice;
+        
+        ctx.beginPath();
+        ctx.strokeStyle = '#3498db';
+        ctx.lineWidth = 2;
+        
+        // Desenha a linha do gráfico
+        prices.forEach((price, index) => {
+            const x = padding + (width / (prices.length - 1)) * index;
+            const y = padding + height - (price - minPrice) / priceRange * height;
+            
+            if (index === 0) {
+                ctx.moveTo(x, y);
+            } else {
+                ctx.lineTo(x, y);
+            }
+        });
+        ctx.stroke();
+
+        // Desenha os pontos
+        ctx.fillStyle = '#e74c3c';
+        prices.forEach((price, index) => {
+            const x = padding + (width / (prices.length - 1)) * index;
+            const y = padding + height - (price - minPrice) / priceRange * height;
+            ctx.beginPath();
+            ctx.arc(x, y, 3, 0, Math.PI * 2);
+            ctx.fill();
         });
     };
 
@@ -108,13 +168,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         populateFilters(filteredItems);
-        
         classeSelect.value = selectedClasse;
         tipoSelect.value = selectedTipo;
         nomeSelect.value = selectedNome;
         adicionaisSelect.value = selectedAdicional;
         nivelSelect.value = selectedNivel;
-        
         displayItems(filteredItems);
     };
 
