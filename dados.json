@@ -1,5 +1,23 @@
 [
   {
+    "nome": "SET DARK STEEL",
+    "precoMedio": 10,
+    "classe": "BK",
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": [],
+    "historicoPreco": []
+  },
+  {
+    "nome": "SET DARK STEEL+7",
+    "precoMedio": 11,
+    "classe": "BK",
+    "tipo": "Armaduras (Sets)",
+    "adicionais": [],
+    "nivel": ["+7"],
+    "historicoPreco": []
+  },
+  {
     "nome": "SET DARK STEEL+9+ZEN",
     "precoMedio": 12.5,
     "classe": "BK",
@@ -26,5 +44,103 @@
     "nivel": ["+9"],
     "historicoPreco": [8, 10, 9, 10]
   },
-  // ... continue para outros itens
+  {
+    "nome": "SET LEGENDARY+13+ADD",
+    "precoMedio": 50,
+    "classe": "SM",
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["ADD"],
+    "nivel": ["+13"],
+    "historicoPreco": [45, 50, 48, 50]
+  },
+  {
+    "nome": "SET ADMIRA+13+ZEN",
+    "precoMedio": 45,
+    "classe": "MG",
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["Zen"],
+    "nivel": ["+13"],
+    "historicoPreco": [40, 45, 42, 45]
+  },
+  {
+    "nome": "SET DRAGON KNIGHT+13+ADD",
+    "precoMedio": 60,
+    "classe": "DK",
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["ADD"],
+    "nivel": ["+13"],
+    "historicoPreco": [55, 60, 58, 60]
+  },
+  {
+    "nome": "SET LIGHT PLATE+13+ADD",
+    "precoMedio": 30,
+    "classe": "DL",
+    "tipo": "Armaduras (Sets)",
+    "adicionais": ["ADD"],
+    "nivel": ["+13"],
+    "historicoPreco": [28, 30, 29, 30]
+  },
+  {
+    "nome": "SWORD KINGS+13+ADD",
+    "precoMedio": 100,
+    "classe": "BK",
+    "tipo": "Armas (Swords)",
+    "adicionais": ["ADD"],
+    "nivel": ["+13"],
+    "historicoPreco": [90, 100, 95, 100]
+  },
+  {
+    "nome": "STAFF LEGENDARY+13+ADD",
+    "precoMedio": 95,
+    "classe": "SM",
+    "tipo": "Armas (Staffs)",
+    "adicionais": ["ADD"],
+    "nivel": ["+13"],
+    "historicoPreco": [85, 95, 90, 95]
+  },
+  {
+    "nome": "BOW HOLY+13+ADD",
+    "precoMedio": 80,
+    "classe": "ELF",
+    "tipo": "Armas (Bows)",
+    "adicionais": ["ADD"],
+    "nivel": ["+13"],
+    "historicoPreco": [75, 80, 78, 80]
+  },
+  {
+    "nome": "STICK PLATINUM+13+ADD",
+    "precoMedio": 75,
+    "classe": "MG",
+    "tipo": "Armas (Sticks)",
+    "adicionais": ["ADD"],
+    "nivel": ["+13"],
+    "historicoPreco": [70, 75, 72, 75]
+  },
+  {
+    "nome": "WING OF DARKNESS",
+    "precoMedio": 20,
+    "classe": "MG",
+    "tipo": "Wings (Capa)",
+    "adicionais": [],
+    "nivel": [],
+    "historicoPreco": [15, 20, 18, 20]
+  },
+  {
+    "nome": "WING OF DARKNESS +13",
+    "precoMedio": 40,
+    "classe": "MG",
+    "tipo": "Wings (Capa)",
+    "adicionais": [],
+    "nivel": ["+13"],
+    "historicoPreco": [35, 40, 38, 40]
+  },
+  {
+    "nome": "WING OF DRAGON +13",
+    "precoMedio": 50,
+    "classe": "BK",
+    "tipo": "Wings (Capa)",
+    "adicionais": [],
+    "nivel": ["+13"],
+    "historicoPreco": [45, 50, 48, 50]
+  }
 ]
